@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "in8frontend"
+    }
+  },
+  "defaultProject": "in8frontend",
+  "cli": {
+    "analytics": false
+  }
 }

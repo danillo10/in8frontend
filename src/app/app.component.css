@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+input[type=date]:invalid::-webkit-datetime-edit {
+  color: #fff !important;
+}
+
+#menu{
+  min-height: 100vh;
+  background: url('../assets//index-image.jpg') center center;
+  background-size: cover;
+}
+
+img.background{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+img.logo{
+  max-width: 80%;
+}
+
+ul.lista, span.subtitulo {
+  font-family: 'Helvetica' 25;
+  font-weight: lighter;
+  color: #fff;
+}
+
+ul.lista{
+  list-style-type: none;
+  font-size: 20px;
+}
+
+span.subtitulo{
+  font-size: 50px;
+}
+
+ul.lista li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+div.cadastro {
+  font-weight: normal;
+  background: #29abe2;
+  color: #fff;
+  padding: 30px 0px;
+}
+
+div.cadastro h2{
+  font-family: 'Helvetica' 25;
+  font-weight: lighter;
+  color: #fff;
+}
+
+input.form-control {
+  background-color: transparent !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 10px;
+}
+
+.btn.btn-in8 {
+  background: #012d51;
+  color: #29abe2;
+  padding: 10px 15px;
+  font-family: 'Helvetica' 25;
+  font-weight: lighter;
+  color: #fff;
+}
+
+div.cadastros{
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.cadastros h2 {
+  font-family: 'Helvetica' 25;
+  font-weight: lighter;
+  color: #29abe2;
+  padding: 30px 0px;
+}
+
+th, td{
+  padding:10px 20px;
+  border:1px solid #29abe2;
+  border-top: 0;
+}
+
+th:first-child{
+  border-left: 0;
+}
+
+th:last-child{
+  border-right: 0;
+}
+
+td:first-child{
+  border-left:0;
+}
+
+td:last-child{
+  border-right: 0;
+}
+
+tr:last-child td{
+  border-bottom: 0;
+}
+
+div.loading img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
